@@ -205,7 +205,7 @@ span {
     /* align-items: center; */
     gap: 3rem;
 }
-.about-skills img{
+.about-skills .logo-lenguaje img{
     width: 7vw;
 }
 
