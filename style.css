@@ -162,14 +162,21 @@ span {
 .about{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 2rem;
     background: var(--secong-bg-color);
     
 }
 
+.about-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
 .about-img img{
-    width: 35vw;
+    width: 15vw;
 }
 
 .heading{
@@ -191,6 +198,21 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+.about-skils{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* align-items: center; */
+    gap: 3rem;
+}
+.about-skils img{
+    width: 7vw;
+}
+
+.logo-lenguaje{
+    text-align: center;
+}
+
 
 .services h2{
     margin-bottom: 4rem;
