@@ -199,13 +199,13 @@ span {
     margin: 2rem 0 3rem;
 }
 
-.about-skils{
+.about-skills{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* align-items: center; */
     gap: 3rem;
 }
-.about-skils img{
+.about-skills img{
     width: 7vw;
 }
 
