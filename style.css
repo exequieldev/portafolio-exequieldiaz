@@ -163,7 +163,7 @@ span {
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    gap: 2rem;
+    gap: 3rem;
     background: var(--secong-bg-color);
     
 }
@@ -172,7 +172,7 @@ span {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .about-img img{
@@ -183,6 +183,10 @@ span {
     text-align: center;
     font-size: 4.5rem;
     
+}
+
+.about-content{
+    width: 70%;
 }
 
 .about-content h2{
@@ -197,20 +201,37 @@ span {
 .about-content p{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    
+}
+
+.about-skills-header{
+    width: 20%;
+}
+
+.about-skills-header h2{
+    margin-bottom: 2rem;
 }
 
 .about-skills{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     /* align-items: center; */
     gap: 3rem;
+    justify-items: start;
 }
 .about-skills .logo-lenguaje img{
     width: 7vw;
+    height: 15vh;
+
 }
 
 .logo-lenguaje{
     text-align: center;
+}
+
+.logo-lenguaje h3:hover{
+    transform: scale(2);
+    color: var(--main-color);
 }
 
 
